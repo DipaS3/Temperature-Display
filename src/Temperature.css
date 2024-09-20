@@ -1,0 +1,53 @@
+.temparture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.temp-img{
+ position: relative;
+ 
+}
+
+.temp-display{
+   
+    position: absolute;
+    top: 34%;
+   left:42%;
+}
+.actual-temp{
+    display: flex;
+    border-radius: 50%;
+    color: white;
+    background: #34495e;
+    height: 200px;
+    width:200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    font-size: 48px;
+    top:40%;
+}
+.temp-btn{
+    display: flex;
+    align-items: center;
+    gap: 110px;
+}
+button{
+    height: 50px;
+    width:50px;
+    border-radius: 100px;
+    color: white;
+    border:3px solid rgb;
+    font-size: 32px;
+    background-color: #f0932b;
+    margin-top: 50px;
+}
+button:hover{
+    background-color: rgb(184, 184, 184);
+    cursor: pointer;
+    color: black;
+    transition: 0.5s;
+}
